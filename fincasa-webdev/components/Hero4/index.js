@@ -21,7 +21,7 @@ const Hero4 = () => {
                 <div className="hero-wrapper">
                     <Slider {...settings}>
                         <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-4.jpg'})` }}>
+                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/corporate.png'})` }}>
                                 <div className="container-fluid">
                                     <div className="slide-content">
                                         {/* <div className="slide-title-sub">
@@ -42,7 +42,7 @@ const Hero4 = () => {
                         </div>
 
                         <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-5.jpg'})` }}>
+                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/citizenship.png'})` }}>
                                 <div className="container-fluid">
                                     <div className="slide-content">
                                         {/* <div className="slide-title-sub">
@@ -63,7 +63,7 @@ const Hero4 = () => {
                         </div>
 
                         <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-5.jpg'})` }}>
+                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/Manconsult.png'})` }}>
                                 <div className="container-fluid">
                                     <div className="slide-content">
                                         {/* <div className="slide-title-sub">
