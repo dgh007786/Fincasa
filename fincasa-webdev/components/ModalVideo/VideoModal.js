@@ -1,28 +1,28 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const VideoModal = () => {
-
   const [modal, setModal] = useState(false);
 
   const openModal = () => {
     setModal(!modal);
   };
 
-
   return (
     <div className="v-modal-area">
       <div className="video-btn">
         <ul>
           <li>
-            <button className="btn-wrap" onClick={openModal}><i className="fi flaticon-play-buttton"></i></button>
+            <button className="btn-wrap" onClick={openModal}>
+              <i className="fi flaticon-play-buttton"></i>
+            </button>
           </li>
         </ul>
       </div>
       <div className="v-modal-wrap">
         {modal ? (
           <section className="modal__bg">
-            <button onClick={openModal} className="close"> 
-              <i className='fa fa-close'></i>
+            <button onClick={openModal} className="close">
+              <i className="fa fa-close"></i>
             </button>
             <div className="modal__align">
               <div className="modal__content" modal={modal}>
@@ -30,7 +30,7 @@ const VideoModal = () => {
                   <iframe
                     className="modal__video-style"
                     loading="lazy"
-                    src="https://www.youtube.com/embed/7Jv48RQ_2gk"
+                    src="https://www.youtube.com/embed/J__1bpErPl4"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -42,7 +42,7 @@ const VideoModal = () => {
         ) : null}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default VideoModal;

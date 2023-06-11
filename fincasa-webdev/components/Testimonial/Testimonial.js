@@ -1,48 +1,48 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Slider from "react-slick";
-import VideoModal from '../ModalVideo/VideoModal';
-import SectionTitle from '../SectionTitle/SectionTitle';
-
+import VideoModal from "../ModalVideo/VideoModal";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 const testimonial = [
-    {
-        id: '01',
-        tImg: '/images/testimonial/img-1.jpg',
-        Des: "I just wanted to share a quick note and let you know that you guys do a  really good job. I’m glad I decided to work with you. It’s really great how easy. One way to categorize the activities is in terms.",
-        Title: 'Cathi Falcon',
-        Sub: "Founder",
-    },
-    {
-        id: '01',
-        tImg: '/images/testimonial/img-2.jpg',
-        Des: "I just wanted to share a quick note and let you know that you guys do a  really good job. I’m glad I decided to work with you. It’s really great how easy. One way to categorize the activities is in terms.",
-        Title: 'Harry Abraham',
-        Sub: "SCG First Company",
-    },
-    {
-        id: '01',
-        tImg: '/images/testimonial/img-3.jpg',
-        Des: "I just wanted to share a quick note and let you know that you guys do a  really good job. I’m glad I decided to work with you. It’s really great how easy. One way to categorize the activities is in terms.",
-        Title: 'Benjir Walton',
-        Sub: "Merketer",
-    }
-]
+  {
+    id: "01",
+    tImg: "/images/testimonial/videoph.png",
+    Des: "I just wanted to share a quick note and let you know that you guys do a  really good job. I’m glad I decided to work with you. It’s really great how easy. One way to categorize the activities is in terms.",
+    Title: "Cathi Falcon",
+    Sub: "Founder",
+  },
+  {
+    id: "01",
+    tImg: "/images/testimonial/img-2.jpg",
+    Des: "I just wanted to share a quick note and let you know that you guys do a  really good job. I’m glad I decided to work with you. It’s really great how easy. One way to categorize the activities is in terms.",
+    Title: "Harry Abraham",
+    Sub: "SCG First Company",
+  },
+  {
+    id: "01",
+    tImg: "/images/testimonial/img-3.jpg",
+    Des: "I just wanted to share a quick note and let you know that you guys do a  really good job. I’m glad I decided to work with you. It’s really great how easy. One way to categorize the activities is in terms.",
+    Title: "Benjir Walton",
+    Sub: "Merketer",
+  },
+];
 
 const Testimonial = () => {
+  const [nav1, setNav1] = useState();
+  const [nav2, setNav2] = useState();
 
-    const [nav1, setNav1] = useState();
-    const [nav2, setNav2] = useState();
-
-
-    return (
-        <section className="wpo-testimonial-section section-padding">
-            <div className="container">
-                <div className="wpo-testimonial-wrap">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <SectionTitle subTitle={'CLIENT TESTIMONIAL'} Title={'Best Word Our Clients'} />
-                            <div className="wpo-testimonial-items">
-                                <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)} dots={true} arrows={false}>
+  return (
+    <section className="wpo-testimonial-section section-padding">
+      <div className="container">
+        <div className="wpo-testimonial-wrap">
+          <div className="row">
+            <div className="col-lg-6">
+              <SectionTitle
+                subTitle={"ABOUT US"}
+                Title={"FINCASA CAPITAL"}
+              />
+              <div className="wpo-testimonial-items">
+                {/* <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)} dots={true} arrows={false}>
                                     {
                                         testimonial.map((tesmnl, tsm) => (
                                             <div className="wpo-testimonial-item" key={tsm}>
@@ -56,38 +56,47 @@ const Testimonial = () => {
                                             </div>
                                         ))
                                     }
-                                </Slider>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 offset-lg-1">
-                            <div className="testimonial-right-side">
-                                <Slider
-                                    asNavFor={nav1}
-                                    ref={(slider2) => setNav2(slider2)}
-                                    slidesToShow={1}
-                                    fade={true}
-                                    swipeToSlide={true}
-                                    focusOnSelect={true}
-                                >
-                                    {
-                                        testimonial.map((tesmnl, tsm) => (
-                                            <div className="testimonial-img" key={tsm}>
-                                                <img src={tesmnl.tImg} alt="" />
-                                            </div>
-                                        ))
-                                    }
-
-                                </Slider>
-                                <div className="video-holder">
-                                    <VideoModal />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                </Slider> */}
+                <div className="wpo-testimonial-item">
+                  <div className="wpo-testimonial-text">
+                    <p>
+                      We are a global financial advisory firm offering services
+                      for second Residency and Citizenship through Investment.
+                      Our strength is our determination to deliver outstanding
+                      results with speed and integrity. Our service-oriented
+                      mindset has enabled us to consistently meet the high
+                      expectations of our valuable clients.
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-    );
-}
+            <div className="col-lg-5 offset-lg-1">
+              <div className="testimonial-right-side">
+                <Slider
+                  asNavFor={nav1}
+                  ref={(slider2) => setNav2(slider2)}
+                  slidesToShow={1}
+                  fade={true}
+                  swipeToSlide={true}
+                  focusOnSelect={true}
+                >
+                  {testimonial.map((tesmnl, tsm) => (
+                    <div className="testimonial-img" key={tsm}>
+                      <img src={tesmnl.tImg} alt="" />
+                    </div>
+                  ))}
+                </Slider>
+                <div className="video-holder">
+                  <VideoModal />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Testimonial;
