@@ -10,9 +10,9 @@ const HeaderTopbar = () => {
                     <div className="col col-lg-6 col-sm-12 col-12">
                         <div className="contact-intro">
                             <ul>
-                                <li><i className="fi flaticon-phone-call-1"></i>(00) 0431 275 490</li>
-                                <li><i className="fi flaticon-email-1"></i>support24@gmail.com</li>
-                                <li><i className="fi flaticon-location"></i> Roberts Avenue, Chattanooga.</li>
+                                <li><i className="fi flaticon-phone-call-1"></i>+971 5889 13803</li>
+                                <li><i className="fi flaticon-email-1"></i>info@fincasacapital.com</li>
+                                <li><i className="fi flaticon-location"></i>Dubai, United Arab Emirates.</li>
                             </ul>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ const HeaderTopbar = () => {
                             <ul>
                                 <li><Link href="/about">Careers</Link></li>
                                 <li><Link href="/blog">News & Media</Link></li>
-                                <li><Link href="/faq">FAQ</Link></li>
+                                <li><Link href="/faq">Blogs</Link></li>
                             </ul>
                             <ul className="social">
                                 <li><Link href="/"><i className="ti-facebook"></i></Link></li>

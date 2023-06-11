@@ -24,7 +24,7 @@ const About2 = (props) => {
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-text">
-                            <h4>Welcome To Consoel</h4>
+                            <h4>Welcome To FINCASA</h4>
                             <h2>We are trusted consulting company.</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting’s
                                 the industrey's standard dummy text ever since the 1500 when printed

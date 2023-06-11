@@ -22,7 +22,6 @@ const HomePage5 = (props) => {
         <div>
             <Navbar topbarNone={'wpo-header-style-4'} Logo={Logo}/>
             <Hero4/>
-            <Features/>
             <ServiceSectionS2/>
             <About2 abimg={'/images/about.jpg'}/>
             <Skill/>
