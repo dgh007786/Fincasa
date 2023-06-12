@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import MissionVission from '../../components/MissionVission/MissionVission';
-import About2 from '../../components/about2/about2';
+import About from '../../components/about/about';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import FunFact from '../../components/FunFact/FunFact';
@@ -16,7 +16,7 @@ const AboutPage = (props) => {
             <Navbar/>
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
             <MissionVission/>
-            <About2/>
+            <About/>
             <TeamSection tClass={'wpo-team-section-s3'}/>
             <Testimonial/>
             <FunFact fClass={'wpo-fun-fact-section-s2 pt-0'}/>
