@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 import Subscribe from '../components/Subscribe/Subscribe';
 import Scrollbar from '../components/scrollbar/scrollbar';
-import TeamSection from '../components/TeamSection/TeamSection';
+import TeamMainSection from '../components/TeamMainSection/TeamMainSection';
 import ProjectSection from '../components/ProjectSection/ProjectSection';
 import Testimonial from '../components/Testimonial/Testimonial';
 import BlogSection from '../components/BlogSection/BlogSection';
@@ -23,7 +23,7 @@ const HomePage5 = (props) => {
             <About2 abimg={'/images/about.jpg'}/>
             <Subscribe/>
             <ServiceSection/>
-            <TeamSection tClass={'wpo-team-section-s2'}/>
+            <TeamMainSection tClass={'wpo-team-section-s2'}/>
             <ProjectSection/>
             <BlogSection/>
             <PartnerSection/>

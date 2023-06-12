@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Team from '../../api/team'
-import shape1 from '/public/images/team/shape1.png'
+// import shape1 from '/public/images/team/shape1.png'
 import shape2 from '/public/images/team/shape2.png'
 import shape3 from '/public/images/team/shape3.png'
 import Image from 'next/image'
