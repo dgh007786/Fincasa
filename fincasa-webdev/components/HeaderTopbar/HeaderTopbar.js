@@ -24,10 +24,10 @@ const HeaderTopbar = () => {
                                 <li><Link href="/faq">Blogs</Link></li>
                             </ul>
                             <ul className="social">
-                                <li><Link href="/"><i className="ti-facebook"></i></Link></li>
-                                <li><Link href="/"><i className="ti-twitter-alt"></i></Link></li>
-                                <li><Link href="/"><i className="ti-instagram"></i></Link></li>
-                                <li><Link href="/"><i className="ti-google"></i></Link></li>
+                                <li><Link href="https://m.facebook.com/fincasacapital"><i className="ti-facebook"></i></Link></li>
+                                <li><Link href="https://twitter.com/FincasaC?s=08"><i className="ti-twitter-alt"></i></Link></li>
+                                <li><Link href="https://instagram.com/fincasacapital?igshid=NTc4MTIwNjQ2YQ=="><i className="ti-instagram"></i></Link></li>
+                                <li><Link href="https://www.linkedin.com/company/fincasacapital/"><i className="ti-google"></i></Link></li>
                             </ul>
                         </div>
                     </div>

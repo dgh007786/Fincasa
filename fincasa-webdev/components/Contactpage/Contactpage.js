@@ -20,7 +20,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <p>P.O BOX 79077</p> <p>Dubai United Arab Emirates</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -32,9 +32,9 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Email Us</h2>
-                                            <p>Consoel@gmail.com</p>
-                                            <p>helloyou@gmail.com</p>
+                                            <h2>General Inquiries</h2>
+                                            <p>Email: info@fincasacapital.com</p>
+                                            <p>Call: +971 58 891 3803</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -46,9 +46,9 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                            <h2>Sales Inquiries</h2>
+                                            <p>+971 4 591 7463</p>
+                                            <p>+971 58 891 3803</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -56,8 +56,7 @@ const Contactpage = () => {
                         </div>
                         <div className="wpo-contact-title">
                             <h2>Have Any Question?</h2>
-                            <p>It is a long established fact that a reader will be distracted
-                                content of a page when looking.</p>
+                            <p>Feel free to reach out to us for any queries.</p>
                         </div>
                         <div className="wpo-contact-form-area">
                             <ContactForm/>
@@ -67,7 +66,7 @@ const Contactpage = () => {
             </div> 
             <section className="wpo-contact-map-section">
                 <div className="wpo-contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"></iframe>
+                    <iframe src="https://www.google.com/maps/place/Fincasa+Corporate+Services+Provider+LLC/@25.0978092,55.1537208,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43adc52d5c97:0xf14765c54bd66b60!8m2!3d25.0978092!4d55.1562957!16s%2Fg%2F11h_cms1b2?entry=ttu"></iframe>
                 </div>
             </section>
         </section>
