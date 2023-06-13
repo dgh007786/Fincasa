@@ -22,26 +22,25 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <Image src={Logo} alt="logo"/>
                                 </div>
-                                <p>Many desktop publishing packages web page editors now is use model search for many
-                                    web sites.</p>
+                                <p>We are a global financial advisory firm offering services for second Residency and Citizenship through Investment.</p>
                                 <ul>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/">
+                                        <Link onClick={ClickHandler} href="https://m.facebook.com/fincasacapital">
                                            <i className="ti-facebook"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/">
+                                        <Link onClick={ClickHandler} href="https://twitter.com/FincasaC?s=08">
                                            <i className="ti-twitter-alt"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/">
+                                        <Link onClick={ClickHandler} href="https://instagram.com/fincasacapital?igshid=NTc4MTIwNjQ2YQ==">
                                            <i className="ti-instagram"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/">
+                                        <Link onClick={ClickHandler} href="https://www.linkedin.com/company/fincasacapital/">
                                            <i className="ti-google"></i>
                                         </Link>
                                     </li>
@@ -54,27 +53,26 @@ const Footer = (props) => {
                                     <h3>Company</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/about">About company</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service">Our services</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/project">Job opportunities</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">Contact us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/about">Vision & Values</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">Home</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/service">Our Services</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/project-s3">Media</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/We-provide-advanced-solution-business">News</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/contact">Contact Us</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget blog-widget">
                                 <div className="widget-title">
-                                    <h3>Recent Post</h3>
+                                    <h3>Services</h3>
                                 </div>
                                 <ul>
                                     <li>
-                                        <h4><Link onClick={ClickHandler} href="/blog-single/We-provide-advanced-solution">What are the pros and cons of becoming a consultant?</Link></h4>
-                                        <span><i className="fi flaticon-calendar"></i> 10.02.2022</span>
-                                    </li>
-                                    <li>
-                                        <h4><Link onClick={ClickHandler} href="/blog-single/We-provide-advanced-solution">We are able to give truly independent advice</Link></h4>
-                                        <span><i className="fi flaticon-calendar"></i> 10.02.2022</span>
+                                    <h4><Link onClick={ClickHandler} href="/service">Residency and Citizenship Program</Link></h4>
+                                    <h4><Link onClick={ClickHandler} href="/service">Corporate Restructuring</Link></h4>
+                                    <h4><Link onClick={ClickHandler} href="/service">Management Consulting</Link></h4>
                                     </li>
                                 </ul>
                             </div>
@@ -82,10 +80,9 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget newsletter-widget">
                                 <div className="widget-title">
-                                    <h3>Newsletter</h3>
+                                    <h3>Become a Partner</h3>
                                 </div>
-                                <p>Many desktop publi’s shing packages web
-                                    page editors now is use sites.</p>
+                                <p>Ready to Get Started with Fincasa Capital ?</p>
                                 <form onSubmit={SubmitHandler}>
                                     <div className="input-1">
                                         <input type="email" className="form-control" placeholder="Email Address *"
@@ -124,16 +121,16 @@ const Footer = (props) => {
                     <div className="row align-items-center">
                         <div className="col col-lg-6 col-md-12 col-12">
                             <ul>
-                                <li>Copyright &copy; 2022 //  All Right Reserved by <Link onClick={ClickHandler} href="/">Consoel.</Link></li>
+                                <li>Copyright &copy; 2022 Fincasa Capital. Developed By<Link onClick={ClickHandler} href="https://www.vieweb.co.in/"> VIEWEB</Link></li>
                             </ul>
                         </div>
                         <div className="col col-lg-6 col-md-12 col-12">
                             <div className="link">
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/about">Vision & Values</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">History</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service">Awards</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/project-single">Leadership</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/blogs">Blogs</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/We-provide-advanced-solution-business">News</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/Awards">Awards</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/career">Career</Link></li>
                                 </ul>
                             </div>
                         </div>
