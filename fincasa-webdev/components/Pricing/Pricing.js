@@ -8,70 +8,57 @@ const Pricing = (props) => {
     return (
         <section className="wpo-pricing-section section-padding">
             <div className="container">
-                <SectionTitle subTitle={'Pricing'} Title={'Choose Your Pricing Plan'} />
+                <SectionTitle subTitle={'Our Presence'} Title={'Global Offices'} />
                 <div className="pricing-grids clearfix">
                     <div className="grid">
                         <div className="type">
-                            <h5>Basic</h5>
+                            <h5>Cyprus</h5>
                         </div>
                         <div className="pricing-header">
                             <div>
-                                <h3 className="price">$50</h3>
-                                <p>Per Month</p>
+                                <p>Call Now</p>
                             </div>
                         </div>
                         <div className="pricing-body">
                             <ul>
-                                <li>Strategy &amp; Research</li>
-                                <li>Business &amp; Finance Analysing</li>
-                                <li>SEO Optimization</li>
-                                <li>Managment &amp; Marketing</li>
-                                <li>24/7 Customer Support</li>
+                                <li>Griva Digeni, 81 Marinos Court,</li>
+                                <li>st& 2nd Floor, 6043, Larnaca, Cyprus</li>
+                                <li>+35799473825</li>
                             </ul>
-                            <Link href="/pricing" className="get-started">Get Started</Link>
                         </div>
                     </div>
                     <div className="grid">
                         <div className="type">
-                            <h5>ULTRA</h5>
+                            <h5>Canada</h5>
                         </div>
                         <div className="pricing-header">
                             <div>
-                                <h3 className="price">$68</h3>
-                                <p>Per Month</p>
+                                <p>Call Now</p>
                             </div>
                         </div>
                         <div className="pricing-body">
                             <ul>
-                                <li>Strategy &amp; Research</li>
-                                <li>Business &amp; Finance Analysing</li>
-                                <li>SEO Optimization</li>
-                                <li>Managment &amp; Marketing</li>
-                                <li>Website Design &amp; Development</li>
-                                <li>24/7 Customer Support</li>
+                                <li>350 Highway 7 East, Suite 307,</li>
+                                <li>sRichmond Hill, Ontario, Canada</li>
+                                <li>+17 113 6946 36</li>
                             </ul>
-                            <Link href="/pricing" className="get-started">Get Started</Link>
                         </div>
                     </div>
                     <div className="grid">
                         <div className="type">
-                            <h5>Pro</h5>
+                            <h5>Peru</h5>
                         </div>
                         <div className="pricing-header">
                             <div>
-                                <h3 className="price">$75</h3>
-                                <p>Per Month</p>
+                                <p>Call Now</p>
                             </div>
                         </div>
                         <div className="pricing-body">
                             <ul>
-                                <li>Strategy &amp; Research</li>
-                                <li>Business &amp; Finance Analysing</li>
-                                <li>SEO Optimization</li>
-                                <li>Managment &amp; Marketing</li>
-                                <li>24/7 Customer Support</li>
+                                <li>Av. Rivera Navarrete 395</li>
+                                <li>San Isidro, Lima Perú</li>
+                                <li>+47 213 5941 295</li>
                             </ul>
-                            <Link href="/pricing" className="get-started">Get Started</Link>
                         </div>
                     </div>
                 </div>

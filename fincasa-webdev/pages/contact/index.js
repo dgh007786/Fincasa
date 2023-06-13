@@ -4,6 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Contactpage from '../../components/Contactpage/Contactpage'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
+import Pricing from '../../components/Pricing/Pricing';
 
 const ContactPage =() => {
     return(
@@ -11,6 +12,7 @@ const ContactPage =() => {
             <Navbar/>
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
             <Contactpage/>
+            <Pricing/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
