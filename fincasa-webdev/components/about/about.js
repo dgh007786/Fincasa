@@ -32,14 +32,18 @@ const About = (props) => {
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-text">
-                            <h4>Welcome To Consoel Consultancy Comapny</h4>
-                            <h2>We are trusted consulting company, <b>with <span>28+ years</span> of experience.</b>
+                            <h4>Delivering Outstanding Results with Speed and Integrity </h4>
+                            <h2>Fincasa Capital
                             </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting’s
-                                the industrey's standard dummy text ever since the 1500 when printed
-                                galley of type and scrambled type specimen book. One way to categorize the activities is
-                                in terms of the professional’s area of expertise such as competitive analysis, corporate
-                                strategy.</p>
+                            <p>We are a global financial advisory firm offering services for second Residency and Citizenship through Investment.
+                                Our strength is our determination to deliver outstanding results with speed and integrity. 
+                                Our service-oriented mindset has enabled us to consistently meet the high expectations of our valuable clients.</p>
+                                <p>Our client’s success is our responsibility and a major contributing factor to our reputation. 
+                                    We follow a simplified process that assists our clients to keep 
+                                    themselves updated as well as easily track the status and assess information anytime from anywhere.</p>
+                                <p>Our highly qualified team of industry experts bring a wealth of knowledge and valuable insights that have 
+                                    assisted us to reach the pinnacle in our domain. Over the years, our specially curated solutions have assisted 
+                                    investors, entrepreneurs and HNW individuals obtain citizenship and residency in the country of their choice.</p>
                             <Link onClick={ClickHandler} href="/about" className="theme-btn">More About Us</Link>
                         </div>
                     </div>

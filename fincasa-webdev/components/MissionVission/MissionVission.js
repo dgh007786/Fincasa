@@ -11,14 +11,10 @@ const MissionVission = (props) => {
                         <div className="wpo-mission-item">
                             <div className="wpo-mission-text">
                                 <h2>Our Mission</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    has been the industry's standard dummy text ever since the 1500 when
-                                    unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book. It has survived not only five centuries, but also
-                                    the leap into electronic typesetting.</p>
-                                <h5>Lorem Ipsum is simply dummy text of the printing
-                                    has been the industry standard dummy text ever since
-                                    unknown printer took galley.</h5>
+                                <p>To always act in the best interest of our clients by constantly 
+                                    striving to deliver high-end services to our trusted clients. 
+                                    To follow the best industry practices, maintain full integrity and 
+                                    transparency in all our business processes.</p>
                             </div>
                             <div className="shape-1"></div>
                             <div className="shape-2"><Image src={simg} alt=""/></div>
@@ -27,15 +23,10 @@ const MissionVission = (props) => {
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-vission-item">
                             <div className="wpo-vission-text">
-                                <h2>Our Vission</h2>
-                                <h5>Lorem Ipsum is simply dummy text of the printing
-                                    has been the industry standard dummy text ever since
-                                    unknown printer took galley.</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    has been the industry's standard dummy text ever since the 1500 when
-                                    unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book. It has survived not only five centuries, but also
-                                    the leap into electronic typesetting.</p>
+                                <h2>Our Vision</h2>
+                                <p>To provide the best professional assistance and establish ourselves as a trusted partner. 
+                                    Our vision is to design the best investment strategy for our clients with full integrity 
+                                    and dedication by practicing continuous process improvement</p>
                             </div>
                         </div>
                     </div>
