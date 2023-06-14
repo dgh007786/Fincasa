@@ -6,6 +6,7 @@ import MissionVission from '../../components/MissionVission/MissionVission';
 import About from '../../components/about/about';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Footer from '../../components/footer/Footer';
+import abimg from '../../public/images/about/about_image.png';
 
 const AboutPage = (props) => {
 
@@ -13,7 +14,7 @@ const AboutPage = (props) => {
         <div>
             <Navbar/>
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
-            <About/>
+            <About abimg={abimg}/>
             <MissionVission/>
             <Testimonial/>
             <Footer/>

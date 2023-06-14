@@ -20,8 +20,8 @@ const HomePage5 = (props) => {
             <Navbar topbarNone={'wpo-header-style-4'} Logo={Logo}/>
             <Hero4/>
             <Testimonial/>
-            <About2 abimg={'/images/about.jpg'}/>
-            <Subscribe/>
+            <About2/>
+            <Subscribe sbClass={"wpo-subscribe-section-s2"} />
             <ServiceSection/>
             <TeamMainSection tClass={'wpo-team-section-s2'}/>
             <ProjectSection/>

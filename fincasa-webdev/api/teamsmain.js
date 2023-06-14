@@ -1,6 +1,6 @@
-import timg1 from "/public/images/team/1.jpg";
-import timg2 from "/public/images/team/2.jpg";
-import timg3 from "/public/images/team/3.jpg";
+import timg1 from "/public/images/team/1.png";
+import timg2 from "/public/images/team/2.png";
+import timg3 from "/public/images/team/3.png";
 
 
 const TeamsMain = [

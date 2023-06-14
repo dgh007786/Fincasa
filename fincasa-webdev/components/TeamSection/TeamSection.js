@@ -33,9 +33,6 @@ const TeamSection = (props) => {
                                         <div className="wpo-team-text">
                                             <span>{team.title}</span>
                                             <h2>{team.name}</h2>
-                                            <div className="button">
-                                                <Link onClick={ClickHandler} href='/team-single/[slug]' as={`/team-single/${team.slug}`}><i className="ti-plus"></i></Link>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
