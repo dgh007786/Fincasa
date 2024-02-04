@@ -67,3 +67,6 @@ jobs:
       with:
         branch: gh-pages
         folder: fincasa-webdev/out
+
+    - name: List output files
+      run: ls -l fincasa-webdev/out
