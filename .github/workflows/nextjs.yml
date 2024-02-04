@@ -51,7 +51,7 @@ jobs:
     # Install dependencies
     - name: Install dependencies
       run: npm ci
-      working-directory: Fincasa/fincasa-webdev
+      working-directory: fincasa-webdev
 
     # Build and Export the Next.js site
     - name: Build
@@ -59,7 +59,7 @@ jobs:
       working-directory: Fincasa/fincasa-webdev
     - name: Export
       run: npm run export
-      working-directory: Fincasa/fincasa-webdev
+      working-directory: fincasa-webdev
 
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
