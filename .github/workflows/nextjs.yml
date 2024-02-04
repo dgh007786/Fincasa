@@ -56,7 +56,7 @@ jobs:
     # Build and Export the Next.js site
     - name: Build
       run: npm run build
-      working-directory: Fincasa/fincasa-webdev
+      working-directory: fincasa-webdev
     - name: Export
       run: npm run export
       working-directory: fincasa-webdev
